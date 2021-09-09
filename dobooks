@@ -132,7 +132,7 @@ then
 	create_links
 	create_bottom
 	pushd docs >/dev/null
-	staticrypt -o index.html index.html ${password}
+	#staticrypt -o index.html index.html ${password}
 	popd >/dev/null
 	dogit
 fi
