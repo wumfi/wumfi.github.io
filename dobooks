@@ -123,7 +123,7 @@ dogit() {
 	git push >/dev/null 2>&1
 }
 
-cd ${script_home} >/dev/null
+pushd ${script_home} >/dev/null
 do_md5
 if (( ${go} ))
 then
@@ -134,4 +134,4 @@ then
 	staticrypt -o docs/index.html docs/index.html ${password}
 	dogit
 fi
-cd - >/dev/null
+popd >/dev/null
