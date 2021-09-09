@@ -127,12 +127,16 @@ pushd ${script_home} >/dev/null
 do_md5
 if (( ${go} ))
 then
+	if [[ -f ${script_home}/docs/index.html ]]
+	then
+		rm ${script_home}/docs/index.html
+	fi
 	create_top
 	create_sections
 	create_links
 	create_bottom
 	pushd docs >/dev/null
-	#staticrypt -o index.html index.html ${password}
+	staticrypt -o index.html index.html ${password}
 	popd >/dev/null
 	dogit
 fi
