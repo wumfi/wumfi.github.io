@@ -118,9 +118,9 @@ EOF
 
 dogit() {
 	now=$(date +"%Y%m%d-%H%M")
-	git add . >/dev/null
-	git commit -m "${now}" >/dev/null
-	git push >/dev/null
+	git add . >/dev/null 2>&1
+	git commit -m "${now}" >/dev/null 2>&1
+	git push >/dev/null 2>&1
 }
 
 cd ${script_home} >/dev/null
