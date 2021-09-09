@@ -1,23 +1,25 @@
 #!/bin/bash
 go=0
-filename=docs/index.html
 script_home="/home/wumfi/wumfi.github.io"
-password=$(cat .pwd)
+filename="${script_home}/docs/index.html"
+password="$(cat ${script_home}/.pwd)"
+md5="{${script_home}/md5"
+old_md5="${script_home}"
 
 do_md5() {
-	md5sum books.txt>md5
-	if [[ -f books_old_md5 ]]
+	md5sum books.txt>${md5}
+	if [[ -f ${old_md5} ]]
 	then
-		md5=$(cat md5)
-		oldmd5=$(cat old_md5)
-		if [[ ! "${md5}" == "${oldmd5}" ]]
+		md5guid=$(cat ${md5})
+		oldmd5guid=$(cat ${old_md5})
+		if [[ ! "${md5guid}" == "${oldmd5guid}" ]]
 		then
 			go=1
 		fi
 	else
 		go=1
 	fi
-	cp md5 old_md5
+	cp ${md5} ${old_md5}
 }
 
 add_line() {
