@@ -3,8 +3,8 @@ go=0
 script_home="/home/wumfi/wumfi.github.io"
 filename="${script_home}/docs/index.html"
 password="$(cat ${script_home}/.pwd)"
-md5="{${script_home}/md5"
-old_md5="${script_home}"
+md5="${script_home}/md5"
+old_md5="${script_home}/old_md5"
 
 do_md5() {
 	md5sum ${script_home}/books.txt>${md5}
