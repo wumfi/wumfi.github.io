@@ -1,14 +1,15 @@
 #!/bin/bash
 go=0
 filename=docs/index.html
+script_home="/home/wumfi/wumfi.github.io"
 password=$(cat .pwd)
 
 do_md5() {
-	md5sum books.txt>books_md5
+	md5sum books.txt>md5
 	if [[ -f books_old_md5 ]]
 	then
-		md5=$(cat books_md5)
-		oldmd5=$(cat books_old_md5)
+		md5=$(cat md5)
+		oldmd5=$(cat old_md5)
 		if [[ ! "${md5}" == "${oldmd5}" ]]
 		then
 			go=1
@@ -16,7 +17,7 @@ do_md5() {
 	else
 		go=1
 	fi
-	cp books_md5 books_old_md5
+	cp md5 old_md5
 }
 
 add_line() {
@@ -113,6 +114,14 @@ function openCity(evt, sectionName) {
 EOF
 }
 
+dogit() {
+	now=$(date +"%Y%m%d-%H%M")
+	git add .
+	git commit -m "${now}"
+	git push
+}
+
+pushd ${script_home} >/dev/null
 do_md5
 if (( ${go} ))
 then
@@ -121,4 +130,6 @@ then
 	create_links
 	create_bottom
 	staticrypt -o docs/index.html docs/index.html ${password}
+	dogit
 fi
+popd >/dev/null
