@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Simple bookmarks website
-# Reads from books.txt and builds protected web page (password in .pwd)
+# Reads from books.txt and builds protected web page (password in .pwd) in github pages
 #
 #    |                              |
 #    __ \   |   |      __ \    _ \  __|   _ \
@@ -146,7 +146,7 @@ then
 	create_links
 	create_bottom
 	pushd docs >/dev/null
-	/usr/local/bin/staticrypt -o index.html index.html ${password}
+	#/usr/local/bin/staticrypt -o index.html index.html ${password}
 	popd >/dev/null
 	dogit
 fi
