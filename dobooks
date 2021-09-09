@@ -1,0 +1,124 @@
+#!/bin/bash
+go=0
+filename=docs/index.html
+password=$(cat .pwd)
+
+do_md5() {
+	md5sum books.txt>books_md5
+	if [[ -f books_old_md5 ]]
+	then
+		md5=$(cat books_md5)
+		oldmd5=$(cat books_old_md5)
+		if [[ ! "${md5}" == "${oldmd5}" ]]
+		then
+			go=1
+		fi
+	else
+		go=1
+	fi
+	cp books_md5 books_old_md5
+}
+
+add_line() {
+	echo "${1}" >>${filename}
+}
+
+create_sections() {
+	for ln in $(cat books.txt | awk -F, '{print $1}' | sort | uniq)
+	do
+		add_line "	<button class='w3-bar-item w3-button tablink' onclick='openCity(event, \"${ln}\")'>${ln}</button>"
+	done
+	cat<<EOF >>${filename}
+</div>
+
+<div style="margin-left:130px">
+EOF
+}
+
+create_links() {
+	IFS=''
+	old_section=
+	cat books.txt |	sort | while read ln; do
+		section="$(echo ${ln} | awk -F, '{print $1}')"
+		name="$(echo ${ln} | awk -F, '{print $2}')"
+		url="$(echo ${ln} | awk -F, '{print $3}')"
+		if [[ ! "${section}" == "${old_section}" ]]
+		then
+			if [[ ! "${old_section}" == "" ]]
+			then
+				add_line "		</div>"
+				add_line "	</div>"
+			fi
+			add_line "	<div id='${section}' class='w3-container section w3-center' style='display:none'>"
+			add_line "		<h2>${section}</h2>"
+			add_line "		<div class='w3-row'>"
+		fi
+		add_line "			<a href='${url}' target='_blank'>"
+		add_line "				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>"
+		add_line "					<h4>${name}</h4>"
+		add_line "				</div>"
+		add_line "			</a>"
+		old_section=${section}
+	done
+	add_line "		</div>"
+	add_line "	</div>"
+}
+
+create_top() {
+	cat <<EOF >>${filename}
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My links</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
+		<style>
+			.disabled {
+				pointer-events: none;
+			}
+			.pointer {
+				cursor: pointer;
+			}
+		</style>
+	</head>
+<body>
+
+<div class="w3-sidebar w3-bar-block w3-light-grey w3-card" style="width:130px; position:fixed; height: 100%;">
+	<h5 class="w3-bar-item">Links</h5>
+EOF
+}
+
+create_bottom() {
+	cat<<EOF >>${filename}
+</div>
+
+<script>
+function openCity(evt, sectionName) {
+	var i, x, tablinks;
+	x = document.getElementsByClassName("section");
+	for (i = 0; i < x.length; i++) {
+		x[i].style.display = "none";
+	}
+	tablinks = document.getElementsByClassName("tablink");
+	for (i = 0; i < x.length; i++) {
+		tablinks[i].className = tablinks[i].className.replace(" w3-teal disabled pointer", ""); 
+	}
+	document.getElementById(sectionName).style.display = "block";
+	evt.currentTarget.className += " w3-teal disabled pointer";
+}
+</script>
+</body>
+</html>
+EOF
+}
+
+do_md5
+if (( ${go} ))
+then
+	create_top
+	create_sections
+	create_links
+	create_bottom
+	staticrypt -o docs/index.html docs/index.html ${password}
+fi
