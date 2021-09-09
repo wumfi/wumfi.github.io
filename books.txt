@@ -1,3 +1,4 @@
+Work,Timesheet,http://timecollection.arinc.com/DeltekTC/TimeCollection.msv
 VMWare,Slough VCA,https://vca01slo.ims-sne.com/ui
 VMWare,NYC VCA,https://vca01nyc.rcas.aero/ui
 VMWare,Lab VCA,https://vca01cly.rcas.cly/ui
