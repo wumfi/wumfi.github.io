@@ -1,4 +1,6 @@
 Work,Timesheet,http://timecollection.arinc.com/DeltekTC/TimeCollection.msv
+Work,Nagios (New),https://ngxi01slo.ims-sne.com/nagiosxi/login.php
+Work,Nagios (Old),https://mon01slo/nagiosxi/login.php,
 VMWare,Slough VCA,https://vca01slo.ims-sne.com/ui
 VMWare,NYC VCA,https://vca01nyc.rcas.aero/ui
 VMWare,Lab VCA,https://vca01cly.rcas.cly/ui
