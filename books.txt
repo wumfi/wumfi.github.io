@@ -15,4 +15,4 @@ Work,Crawley Register (If going in to office),https://docs.google.com/spreadshee
 3D,E-step calibration,https://teachingtechyt.github.io/calibration.html#esteps
 3D,GCODE analyzer,https://gcode.ws
 Arduino,Flickering LED,https://github.com/micromouseonline/flickering-flame
-3d,Alex's firmware,https://github.com/alexqzd/Marlin/releases
+3D,Alex's firmware,https://github.com/alexqzd/Marlin/releases
