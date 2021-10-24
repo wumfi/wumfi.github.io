@@ -16,3 +16,4 @@ Work,Crawley Register (If going in to office),https://docs.google.com/spreadshee
 3D,GCODE analyzer,https://gcode.ws
 Arduino,Flickering LED,https://github.com/micromouseonline/flickering-flame
 3D,Alex's firmware,https://github.com/alexqzd/Marlin/releases
+3D,FAT32 format on Mac,https://www.reddit.com/r/VoxelabAquila/comments/odxwdk/psa_before_flashing_custom_firmware_using_macos/?utm_source=share&utm_medium=ios_app&utm_name=iossmf
