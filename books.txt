@@ -18,3 +18,6 @@ Arduino,Flickering LED,https://github.com/micromouseonline/flickering-flame
 3D,Alex's firmware,https://github.com/alexqzd/Marlin/releases
 3D,FAT32 format on Mac,https://www.reddit.com/r/VoxelabAquila/comments/odxwdk/psa_before_flashing_custom_firmware_using_macos/?utm_source=share&utm_medium=ios_app&utm_name=iossmf
 3D,GD32 chip explanation,https://www.reddit.com/r/VoxelabAquila/comments/ozu8d6/g32h32n32_with_a_gd32_chip_what_to_use_for/
+Ham,Cage 1,https://www.petsathome.com/shop/en/pets/pets-at-home-wire-purple-hamster-home-extra-large
+Ham,Cage 2,https://www.petsathome.com/shop/en/pets/extra-large-gerbilarium
+Ham,Cage 3,https://www.petsathome.com/shop/en/pets/hamster-heaven-hamster-cage-%28online-only%29
