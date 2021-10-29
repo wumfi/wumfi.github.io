@@ -22,3 +22,4 @@ Ham,Cage 1,https://www.petsathome.com/shop/en/pets/pets-at-home-wire-purple-hams
 Ham,Cage 2,https://www.petsathome.com/shop/en/pets/extra-large-gerbilarium
 Ham,Cage 3,https://www.petsathome.com/shop/en/pets/hamster-heaven-hamster-cage-%28online-only%29
 Arduino,ePaper 3.7 pinout,https://www.waveshare.com/pico-epaper-3.7.htm
+Arduino,ePaper 3.7 library,https://github.com/ZinggJM/GxEPD
