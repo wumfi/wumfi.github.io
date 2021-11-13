@@ -21,3 +21,5 @@ Arduino,Flickering LED,https://github.com/micromouseonline/flickering-flame
 Arduino,ePaper 3.7 pinout,https://www.waveshare.com/pico-epaper-3.7.htm
 Arduino,ePaper 3.7 library,https://github.com/ZinggJM/GxEPD
 Linux,Install any binary,https://command-not-found.com
+Sheds,8x6,https://www.sheds.co.uk/loxley-8-x-6-shiplap-pent-shed.html
+Sheds,8x6,https://www.sheds.co.uk/adley-8-x-6-premium-shiplap-apex-shed.html
