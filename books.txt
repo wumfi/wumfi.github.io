@@ -30,3 +30,4 @@ Chromebook,Activate linux,https://support.google.com/chromebook/answer/9145439?h
 Chromebook,Install ChromeOS on PC,https://beebom.com/how-install-chrome-os-on-pc/
 Music,Captain Drone end track,https://www.youtube.com/watch?v=5B7r2SY5W-M
 Work,Link to tech support (US) zoom,https://collins.zoomgov.com/j/1616017322?pwd=L3crYm41cEJ4WklqdzJqQlJOSll4dz09
+Linux,ASCII boxes,https://waylonwalker.com/drawing-ascii-boxes/
