@@ -32,3 +32,4 @@ Music,Captain Drone end track,https://www.youtube.com/watch?v=5B7r2SY5W-M
 Work,Link to tech support (US) zoom,https://collins.zoomgov.com/j/1616017322?pwd=L3crYm41cEJ4WklqdzJqQlJOSll4dz09
 Linux,ASCII boxes,https://waylonwalker.com/drawing-ascii-boxes/
 3D,Cura PPA,https://launchpad.net/~thopiekar/+archive/ubuntu/cura-master
+Work,SNE Sharepoint,https://rtxusers.sharepoint.us/sites/GS-SatcomNetworkEngineering-COL/_layouts/15/AccessDenied.aspx?Source=https%3a%2f%2frtxusers.sharepoint.us%2fsites%2fGS-SatcomNetworkEngineering-COL&correlation=0aac20a0-80e1-0000-238b-c790fdcceb9e
