@@ -21,7 +21,7 @@ Arduino,Pico in Arduino IDE,https://www.tomshardware.com/uk/how-to/program-raspb
 3D,GD32 chip explanation,https://www.reddit.com/r/VoxelabAquila/comments/ozu8d6/g32h32n32_with_a_gd32_chip_what_to_use_for/
 3D,Cura octolapse settings,https://github.com/FormerLurker/Octolapse/wiki/V0.4---Automatic-Slicer-Configuration#if-you-are-using-cura-follow-these-steps
 Arduino,ePaper 3.7 pinout,https://www.waveshare.com/pico-epaper-3.7.htm
-Arduino,ePaper 3.7 library,https://github.com/ZinggJM/GxEPD
+Arduino,ePaper 3.7 MP library,https://github.com/phoreglad/pico-epaper
 Linux,Install any binary,https://command-not-found.com
 Sheds,8x6,https://www.sheds.co.uk/loxley-8-x-6-shiplap-pent-shed.html
 Sheds,8x6 best,https://www.sheds.co.uk/adley-8-x-6-premium-shiplap-modular-apex-shed.html
