@@ -25,8 +25,9 @@ Arduino,Pico in Arduino IDE,https://www.tomshardware.com/uk/how-to/program-raspb
 Arduino,ePaper 3.7 pinout,https://www.waveshare.com/pico-epaper-3.7.htm
 Arduino,ePaper 3.7 MP library,https://github.com/phoreglad/pico-epaper
 Linux,Install any binary,https://command-not-found.com
+Sheds,8x6 best,https://www.sheds.co.uk/loxley-6-x-8-double-door-shiplap-apex-shed.html
 Sheds,8x6,https://www.sheds.co.uk/loxley-8-x-6-shiplap-pent-shed.html
-Sheds,8x6 best,https://www.sheds.co.uk/adley-8-x-6-premium-shiplap-modular-apex-shed.html
+Sheds,8x6 best old,https://www.sheds.co.uk/adley-8-x-6-premium-shiplap-modular-apex-shed.html
 Amazon,PS 5 charger,PlayStation 5 DualSense Charging Station https://www.amazon.co.uk/dp/B08HHFKMXB/ref=cm_sw_r_cp_api_glt_fabc_KDVBM7YMQN09VK22QY1G
 Chromebook,Activate linux,https://support.google.com/chromebook/answer/9145439?hl=en
 Chromebook,Install ChromeOS on PC,https://beebom.com/how-install-chrome-os-on-pc/
