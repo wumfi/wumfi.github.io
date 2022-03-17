@@ -139,7 +139,6 @@ dogit() {
 
 pushd ${script_home} >/dev/null
 do_md5
-go=1
 if (( ${go} ))
 then
 	if [[ -f ${script_home}/docs/index.html ]]
