@@ -43,3 +43,4 @@ Voop,Black Rose,https://vaping101.co.uk/products/black-rose-elixirs-100ml-shortf
 Voop,The Grind,https://vaping101.co.uk/products/the-grind-100ml-e-liquid?_pos=4&_sid=0e2cf5bf1&_ss=r&_fid=4c01af7f0
 Voop,Fuito,https://vaping101.co.uk/products/fruito-e-liquids-150ml-shortfill?_pos=9&_fid=32589e725&_ss=c
 Work,Rapid7,https://insight.rapid7.com
+Raspberry Pi,https://blog.muffn.io/building-a-custom-ambilight-system-for-any-input-with-a-raspberry-pi-and-hyperion/,Ambilight by muffin
