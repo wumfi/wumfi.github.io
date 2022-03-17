@@ -37,10 +37,14 @@ add_line() {
 }
 
 create_sections() {
-	for ln in $(cat books.txt | awk -F, '{print $1}' | sort | uniq)
+	#for ln in $(cat books.txt | awk -F, '{print $1}' | sort | uniq)
+	#do
+	#	add_line "	<button class='w3-bar-item w3-button tablink' onclick='openCity(event, \"${ln}\")'>${ln}</button>"
+	#done
+	while read ln
 	do
 		add_line "	<button class='w3-bar-item w3-button tablink' onclick='openCity(event, \"${ln}\")'>${ln}</button>"
-	done
+	done <<< $(cat books.txt | awk -F, '{print $1}' | sort | uniq)
 	cat<<EOF >>${filename}
 </div>
 
@@ -135,6 +139,7 @@ dogit() {
 
 pushd ${script_home} >/dev/null
 do_md5
+go=1
 if (( ${go} ))
 then
 	if [[ -f ${script_home}/docs/index.html ]]
