@@ -39,11 +39,11 @@ add_line() {
 create_sections() {
 	#for ln in $(cat books.txt | awk -F, '{print $1}' | sort | uniq)
 	#do
-	#	add_line "	<button class='w3-bar-item w3-button tablink' onclick='openCity(event, \"${ln}\")'>${ln}</button>"
+	#	add_line "	<button class='w3-bar-item w3-button tablink' onclick='openSection(event, \"${ln}\")'>${ln}</button>"
 	#done
 	while read ln
 	do
-		add_line "	<button class='w3-bar-item w3-button tablink' onclick='openCity(event, \"${ln}\")'>${ln}</button>"
+		add_line "	<button class='w3-bar-item w3-button tablink' onclick='openSection(event, \"${ln}\")'>${ln}</button>"
 	done <<< $(cat books.txt | awk -F, '{print $1}' | sort | uniq)
 	cat<<EOF >>${filename}
 </div>
@@ -111,7 +111,7 @@ create_bottom() {
 </div>
 
 <script>
-function openCity(evt, sectionName) {
+function openSection(evt, sectionName) {
 	var i, x, tablinks;
 	x = document.getElementsByClassName("section");
 	for (i = 0; i < x.length; i++) {
