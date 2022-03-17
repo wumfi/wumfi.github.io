@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My links</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
+		<style>
+			.disabled {
+				pointer-events: none;
+			}
+			.pointer {
+				cursor: pointer;
+			}
+		</style>
+	</head>
+<body>
+
+<div class="w3-sidebar w3-bar-block w3-light-grey w3-card" style="width:130px; position:fixed; height: 100%;">
+	<h5 class="w3-bar-item">Links</h5>
+	<button class='w3-bar-item w3-button tablink' onclick='openSection(event, "3D")'>3D</button>
+	<button class='w3-bar-item w3-button tablink' onclick='openSection(event, "Amazon")'>Amazon</button>
+	<button class='w3-bar-item w3-button tablink' onclick='openSection(event, "Arduino")'>Arduino</button>
+	<button class='w3-bar-item w3-button tablink' onclick='openSection(event, "Chromebook")'>Chromebook</button>
+	<button class='w3-bar-item w3-button tablink' onclick='openSection(event, "Duo")'>Duo</button>
+	<button class='w3-bar-item w3-button tablink' onclick='openSection(event, "Linux")'>Linux</button>
+	<button class='w3-bar-item w3-button tablink' onclick='openSection(event, "Music")'>Music</button>
+	<button class='w3-bar-item w3-button tablink' onclick='openSection(event, "Personal")'>Personal</button>
+	<button class='w3-bar-item w3-button tablink' onclick='openSection(event, "Raspberry Pi")'>Raspberry Pi</button>
+	<button class='w3-bar-item w3-button tablink' onclick='openSection(event, "Sheds")'>Sheds</button>
+	<button class='w3-bar-item w3-button tablink' onclick='openSection(event, "VMWare")'>VMWare</button>
+	<button class='w3-bar-item w3-button tablink' onclick='openSection(event, "Voop")'>Voop</button>
+	<button class='w3-bar-item w3-button tablink' onclick='openSection(event, "Work")'>Work</button>
+</div>
+
+<div style="margin-left:130px">
+	<div id='3D' class='w3-container section w3-center' style='display:none'>
+		<h2>3D</h2>
+		<div class='w3-row'>
+			<a href='https://github.com/alexqzd/Marlin/releases' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>Alex's firmware</h4>
+				</div>
+			</a>
+			<a href='https://github.com/FormerLurker/Octolapse/wiki/V0.4---Automatic-Slicer-Configuration#if-you-are-using-cura-follow-these-steps' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>Cura octolapse settings</h4>
+				</div>
+			</a>
+			<a href='https://launchpad.net/~thopiekar/+archive/ubuntu/cura-master' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>Cura PPA</h4>
+				</div>
+			</a>
+			<a href='https://teachingtechyt.github.io/calibration.html#esteps' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>E-step calibration</h4>
+				</div>
+			</a>
+			<a href='https://www.reddit.com/r/VoxelabAquila/comments/odxwdk/psa_before_flashing_custom_firmware_using_macos/?utm_source=share&utm_medium=ios_app&utm_name=iossmf' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>FAT32 format on Mac</h4>
+				</div>
+			</a>
+			<a href='https://gcode.ws' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>GCODE analyzer</h4>
+				</div>
+			</a>
+			<a href='https://www.reddit.com/r/VoxelabAquila/comments/ozu8d6/g32h32n32_with_a_gd32_chip_what_to_use_for/' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>GD32 chip explanation</h4>
+				</div>
+			</a>
+		</div>
+	</div>
+	<div id='Amazon' class='w3-container section w3-center' style='display:none'>
+		<h2>Amazon</h2>
+		<div class='w3-row'>
+			<a href='PlayStation 5 DualSense Charging Station https://www.amazon.co.uk/dp/B08HHFKMXB/ref=cm_sw_r_cp_api_glt_fabc_KDVBM7YMQN09VK22QY1G' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>PS 5 charger</h4>
+				</div>
+			</a>
+		</div>
+	</div>
+	<div id='Arduino' class='w3-container section w3-center' style='display:none'>
+		<h2>Arduino</h2>
+		<div class='w3-row'>
+			<a href='https://github.com/phoreglad/pico-epaper' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>ePaper 3.7 MP library</h4>
+				</div>
+			</a>
+			<a href='https://www.waveshare.com/pico-epaper-3.7.htm' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>ePaper 3.7 pinout</h4>
+				</div>
+			</a>
+			<a href='https://github.com/micromouseonline/flickering-flame' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>Flickering LED</h4>
+				</div>
+			</a>
+			<a href='https://www.tomshardware.com/uk/how-to/program-raspberry-pi-pico-with-arduino-ide' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>Pico in Arduino IDE</h4>
+				</div>
+			</a>
+		</div>
+	</div>
+	<div id='Chromebook' class='w3-container section w3-center' style='display:none'>
+		<h2>Chromebook</h2>
+		<div class='w3-row'>
+			<a href='https://support.google.com/chromebook/answer/9145439?hl=en' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>Activate linux</h4>
+				</div>
+			</a>
+			<a href='https://beebom.com/how-install-chrome-os-on-pc/' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>Install ChromeOS on PC</h4>
+				</div>
+			</a>
+		</div>
+	</div>
+	<div id='Duo' class='w3-container section w3-center' style='display:none'>
+		<h2>Duo</h2>
+		<div class='w3-row'>
+			<a href='https://duo.com/docs/loginduo' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>Duo instructions</h4>
+				</div>
+			</a>
+		</div>
+	</div>
+	<div id='Linux' class='w3-container section w3-center' style='display:none'>
+		<h2>Linux</h2>
+		<div class='w3-row'>
+			<a href='https://waylonwalker.com/drawing-ascii-boxes/' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>ASCII boxes</h4>
+				</div>
+			</a>
+			<a href='https://explainshell.com' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>Explain shell commands</h4>
+				</div>
+			</a>
+			<a href='https://command-not-found.com' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>Install any binary</h4>
+				</div>
+			</a>
+		</div>
+	</div>
+	<div id='Music' class='w3-container section w3-center' style='display:none'>
+		<h2>Music</h2>
+		<div class='w3-row'>
+			<a href='https://www.youtube.com/watch?v=5B7r2SY5W-M' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>Captain Drone end track</h4>
+				</div>
+			</a>
+		</div>
+	</div>
+	<div id='Personal' class='w3-container section w3-center' style='display:none'>
+		<h2>Personal</h2>
+		<div class='w3-row'>
+			<a href='https://github.com' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>Github</h4>
+				</div>
+			</a>
+			<a href='https://3dp.rocks/lithophane' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>Litho Maker</h4>
+				</div>
+			</a>
+			<a href='https://reddit.com' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>Reddit</h4>
+				</div>
+			</a>
+		</div>
+	</div>
+	<div id='Raspberry Pi' class='w3-container section w3-center' style='display:none'>
+		<h2>Raspberry Pi</h2>
+		<div class='w3-row'>
+			<a href='Ambilight by muffin' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>https://blog.muffn.io/building-a-custom-ambilight-system-for-any-input-with-a-raspberry-pi-and-hyperion/</h4>
+				</div>
+			</a>
+		</div>
+	</div>
+	<div id='Sheds' class='w3-container section w3-center' style='display:none'>
+		<h2>Sheds</h2>
+		<div class='w3-row'>
+			<a href='https://www.sheds.co.uk/loxley-6-x-8-double-door-shiplap-apex-shed.html' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>8x6 best</h4>
+				</div>
+			</a>
+			<a href='https://www.sheds.co.uk/adley-8-x-6-premium-shiplap-modular-apex-shed.html' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>8x6 best old</h4>
+				</div>
+			</a>
+			<a href='https://www.sheds.co.uk/loxley-8-x-6-shiplap-pent-shed.html' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>8x6</h4>
+				</div>
+			</a>
+		</div>
+	</div>
+	<div id='VMWare' class='w3-container section w3-center' style='display:none'>
+		<h2>VMWare</h2>
+		<div class='w3-row'>
+			<a href='https://vca01cly.rcas.cly/ui' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>Lab VCA</h4>
+				</div>
+			</a>
+			<a href='https://vca01nyc.rcas.aero/ui' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>NYC VCA</h4>
+				</div>
+			</a>
+			<a href='https://vca01slo.ims-sne.com/ui' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>Slough VCA</h4>
+				</div>
+			</a>
+		</div>
+	</div>
+	<div id='Voop' class='w3-container section w3-center' style='display:none'>
+		<h2>Voop</h2>
+		<div class='w3-row'>
+			<a href='https://vaping101.co.uk/products/the-big-fruity-200ml-shortfill-e-liquids?_pos=6&_sid=548a6ad4f&_ss=r&_fid=bdeb8b04a&variant=39302248693915' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>Big Fruity</h4>
+				</div>
+			</a>
+			<a href='https://vaping101.co.uk/products/black-rose-elixirs-100ml-shortfill-e-liquid?variant=41747375521947' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>Black Rose</h4>
+				</div>
+			</a>
+			<a href='https://vaping101.co.uk/products/retro-joes-e-liquids-200ml-creme-kong-shortfill?_pos=3&_sid=548a6ad4f&_ss=r&_fid=bdeb8b04a&variant=34120635842693' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>Creme Kong</h4>
+				</div>
+			</a>
+			<a href='https://vaping101.co.uk/products/fruito-e-liquids-150ml-shortfill?_pos=9&_fid=32589e725&_ss=c' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>Fruito</h4>
+				</div>
+			</a>
+			<a href='https://vaping101.co.uk/products/pud-e-liquids-200ml-shortfill-by-joes-juice?_pos=1&_sid=548a6ad4f&_ss=r&_fid=bdeb8b04a&variant=34620324577435' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>Püd</h4>
+				</div>
+			</a>
+			<a href='https://vaping101.co.uk/products/the-grind-100ml-e-liquid?_pos=4&_sid=0e2cf5bf1&_ss=r&_fid=4c01af7f0' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>The Grind</h4>
+				</div>
+			</a>
+		</div>
+	</div>
+	<div id='Work' class='w3-container section w3-center' style='display:none'>
+		<h2>Work</h2>
+		<div class='w3-row'>
+			<a href='https://docs.google.com/spreadsheets/d/1uH7OCZPTxIDmhKDxvk8MLm68h49mzevzd8J724VKaBA/edit?usp=sharing' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>Crawley Register (If going in to office)</h4>
+				</div>
+			</a>
+			<a href='https://ess.raytheon.com/prv8/' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>ESS (X663757 login)</h4>
+				</div>
+			</a>
+			<a href='https://collins.zoomgov.com/j/1616017322?pwd=L3crYm41cEJ4WklqdzJqQlJOSll4dz09' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>Link to tech support (US) zoom</h4>
+				</div>
+			</a>
+			<a href='https://ngxi01slo.ims-sne.com/nagiosxi/login.php' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>Nagios (New)</h4>
+				</div>
+			</a>
+			<a href='https://mon01slo/nagiosxi/login.php' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>Nagios (Old)</h4>
+				</div>
+			</a>
+			<a href='https://www.office365.us/?auth=2&home=1' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>Office online</h4>
+				</div>
+			</a>
+			<a href='https://pwstation.rockwellcollins.com/' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>PWStation</h4>
+				</div>
+			</a>
+			<a href='https://insight.rapid7.com' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>Rapid7</h4>
+				</div>
+			</a>
+			<a href='https://unitedtechnologiescorporation.service-now.com' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>ServiceNow</h4>
+				</div>
+			</a>
+			<a href='https://rtxusers.sharepoint.us/sites/GS-SatcomNetworkEngineering-COL/_layouts/15/AccessDenied.aspx?Source=https%3a%2f%2frtxusers.sharepoint.us%2fsites%2fGS-SatcomNetworkEngineering-COL&correlation=0aac20a0-80e1-0000-238b-c790fdcceb9e' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>SNE Sharepoint</h4>
+				</div>
+			</a>
+			<a href='http://timecollection.arinc.com/DeltekTC/TimeCollection.msv' target='_blank'>
+				<div class='w3-card w3-center w3-border w3-margin w3-hover-light-grey w3-cell w3-quarter' style='width:22%'>
+					<h4>Timesheet</h4>
+				</div>
+			</a>
+		</div>
+	</div>
+</div>
+
+<script>
+function openSection(evt, sectionName) {
+	var i, x, tablinks;
+	x = document.getElementsByClassName("section");
+	for (i = 0; i < x.length; i++) {
+		x[i].style.display = "none";
+	}
+	tablinks = document.getElementsByClassName("tablink");
+	for (i = 0; i < x.length; i++) {
+		tablinks[i].className = tablinks[i].className.replace(" w3-teal disabled pointer", ""); 
+	}
+	document.getElementById(sectionName).style.display = "block";
+	evt.currentTarget.className += " w3-teal disabled pointer";
+}
+</script>
+</body>
+</html>

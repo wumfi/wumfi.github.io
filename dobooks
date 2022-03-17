@@ -150,6 +150,7 @@ then
 	create_links
 	create_bottom
 	pushd docs >/dev/null
+	cp index.html old.html
 	/usr/local/bin/staticrypt -o index.html index.html ${password}
 	popd >/dev/null
 	dogit
