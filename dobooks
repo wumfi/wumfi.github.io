@@ -139,6 +139,7 @@ dogit() {
 
 pushd ${script_home} >/dev/null
 do_md5
+go=1
 if (( ${go} ))
 then
 	if [[ -f ${script_home}/docs/index.html ]]
@@ -150,6 +151,7 @@ then
 	create_links
 	create_bottom
 	pushd docs >/dev/null
+	cp index.html index2.html
 	/usr/local/bin/staticrypt -o index.html index.html ${password}
 	popd >/dev/null
 	dogit
