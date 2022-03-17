@@ -18,19 +18,19 @@
 
 <div class="w3-sidebar w3-bar-block w3-light-grey w3-card" style="width:130px; position:fixed; height: 100%;">
 	<h5 class="w3-bar-item">Links</h5>
-	<button class='w3-bar-item w3-button tablink' onclick='openCity(event, "3D")'>3D</button>
-	<button class='w3-bar-item w3-button tablink' onclick='openCity(event, "Amazon")'>Amazon</button>
-	<button class='w3-bar-item w3-button tablink' onclick='openCity(event, "Arduino")'>Arduino</button>
-	<button class='w3-bar-item w3-button tablink' onclick='openCity(event, "Chromebook")'>Chromebook</button>
-	<button class='w3-bar-item w3-button tablink' onclick='openCity(event, "Duo")'>Duo</button>
-	<button class='w3-bar-item w3-button tablink' onclick='openCity(event, "Linux")'>Linux</button>
-	<button class='w3-bar-item w3-button tablink' onclick='openCity(event, "Music")'>Music</button>
-	<button class='w3-bar-item w3-button tablink' onclick='openCity(event, "Personal")'>Personal</button>
-	<button class='w3-bar-item w3-button tablink' onclick='openCity(event, "Raspberry Pi")'>Raspberry Pi</button>
-	<button class='w3-bar-item w3-button tablink' onclick='openCity(event, "Sheds")'>Sheds</button>
-	<button class='w3-bar-item w3-button tablink' onclick='openCity(event, "VMWare")'>VMWare</button>
-	<button class='w3-bar-item w3-button tablink' onclick='openCity(event, "Voop")'>Voop</button>
-	<button class='w3-bar-item w3-button tablink' onclick='openCity(event, "Work")'>Work</button>
+	<button class='w3-bar-item w3-button tablink' onclick='openSection(event, "3D")'>3D</button>
+	<button class='w3-bar-item w3-button tablink' onclick='openSection(event, "Amazon")'>Amazon</button>
+	<button class='w3-bar-item w3-button tablink' onclick='openSection(event, "Arduino")'>Arduino</button>
+	<button class='w3-bar-item w3-button tablink' onclick='openSection(event, "Chromebook")'>Chromebook</button>
+	<button class='w3-bar-item w3-button tablink' onclick='openSection(event, "Duo")'>Duo</button>
+	<button class='w3-bar-item w3-button tablink' onclick='openSection(event, "Linux")'>Linux</button>
+	<button class='w3-bar-item w3-button tablink' onclick='openSection(event, "Music")'>Music</button>
+	<button class='w3-bar-item w3-button tablink' onclick='openSection(event, "Personal")'>Personal</button>
+	<button class='w3-bar-item w3-button tablink' onclick='openSection(event, "Raspberry Pi")'>Raspberry Pi</button>
+	<button class='w3-bar-item w3-button tablink' onclick='openSection(event, "Sheds")'>Sheds</button>
+	<button class='w3-bar-item w3-button tablink' onclick='openSection(event, "VMWare")'>VMWare</button>
+	<button class='w3-bar-item w3-button tablink' onclick='openSection(event, "Voop")'>Voop</button>
+	<button class='w3-bar-item w3-button tablink' onclick='openSection(event, "Work")'>Work</button>
 </div>
 
 <div style="margin-left:130px">
@@ -332,7 +332,7 @@
 </div>
 
 <script>
-function openCity(evt, sectionName) {
+function openSection(evt, sectionName) {
 	var i, x, tablinks;
 	x = document.getElementsByClassName("section");
 	for (i = 0; i < x.length; i++) {
