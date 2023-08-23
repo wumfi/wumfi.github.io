@@ -1,13 +1,100 @@
 <html>
 	<head>
 		<title>All the repos!</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+		<style>
+			hr {
+				border: 0;
+				height: 1px;
+				background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+				width: 40%;
+				margin: auto;
+				margin-bottom: 10px;
+				margin-top: 10px;
+			}
+
+			.light {
+				background-color: lightcyan;
+			}
+
+			.norm {
+				background-color: aquamarine;
+			}
+		</style>
 	</head>
-	<body>
-		<code>
-			#!/bin/bash
-			echo 123
-		</code>
+	<body class="light">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col text-center">
+					<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+						<hr><h1 class="display-4">Debian info</h1><hr>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col text-center">
+					<div>
+						<button type="button" class="btn btn-primary btn-lg rounded-pill">Debian 7 (Wheezy)</button>
+						<button type="button" class="btn btn-primary btn-lg rounded-pill">Debian 8 (Jessie)</button>
+						<button type="button" class="btn btn-primary btn-lg rounded-pill">Debian 9 (Stretch)</button>
+						<button type="button" class="btn btn-primary btn-lg rounded-pill">Debian 10 (Buster)</button>
+						<button type="button" class="btn btn-primary btn-lg rounded-pill">Debian 11 (Bullseye)</button>
+						<button type="button" class="btn btn-primary btn-lg rounded-pill">Debian 12 (Bookworm)</button>
+					</div>
+				</div>
+			</div>
+			<div class="row mx-md-n5">
+				<div class="col text-center px-md-5">
+					<div class="p-3">
+						<code>
+							deb http://archive.debian.org/debian/ wheezy main contrib non-free
+							deb http://archive.debian.org/debian-security wheezy/updates main contrib non-free
+						</code>
+						<table><tbody><tr>  <td style="text-align: center"><p class="line862"> <strong>Version</strong> </td>
+  <td style="text-align: center"><p class="line862"> <strong>support architecture</strong> </td>
+  <td style="text-align: center"><p class="line862"> <strong>schedule</strong> </td>
+</tr>
+<tr>  <td colspan="3" style="background-color: #F06C47"><span class="anchor" id="line-19"></span><p class="line862"> <span class="u">Previous LTS Releases</span> </td>
+</tr>
+<tr>  <td style="background-color: #F06C47"><span class="anchor" id="line-20"></span><p class="line862"> Debian 6 “Squeeze”                 </td>
+  <td style="background-color: #F06C47"><p class="line862"> i386 and amd64 </td>
+  <td style="background-color: #F06C47"><p class="line862"> 2nd June 2014 to 29th of February 2016 </td>
+</tr>
+<tr>  <td style="background-color: #F06C47"><span class="anchor" id="line-21"></span><p class="line862"> Debian 7 “<a href="/LTS/Wheezy">Wheezy</a>”   </td>
+  <td style="background-color: #F06C47"><p class="line862"> i386, amd64, armel and armhf </td>
+  <td style="background-color: #F06C47"><p class="line862"> 26th April 2016 to 31st May 2018 </td>
+</tr>
+<tr>  <td style="background-color: #F06C47"><span class="anchor" id="line-22"></span><p class="line862"> Debian 8 “<a href="/LTS/Jessie">Jessie</a>”   </td>
+  <td style="background-color: #F06C47"><p class="line862"> i386, amd64, armel and armhf </td>
+  <td style="background-color: #F06C47"><p class="line862"> 17th June 2018 to June 30, 2020  </td>
+</tr>
+<tr>  <td style="background-color: #F06C47"><span class="anchor" id="line-23"></span><p class="line862"> Debian 9 “<a href="/LTS/Stretch">Stretch</a>” </td>
+  <td style="background-color: #F06C47"><p class="line862"> i386, amd64, armel, armhf and arm64  </td>
+  <td style="background-color: #F06C47"><p class="line862"> July 6, 2020 to June 30, 2022 </td>
+</tr>
+<tr>  <td colspan="3" style="background-color: #FCED77"><span class="anchor" id="line-24"></span><p class="line862"> <span class="u"><strong>Current LTS Release(s)</strong></span> </td>
+</tr>
+<tr>  <td style="background-color: #FCED77"><span class="anchor" id="line-25"></span><p class="line862"> <strong>Debian 10 “<a href="/LTS/Buster">Buster</a>”</strong> </td>
+  <td style="background-color: #FCED77"><p class="line862"> <strong>i386, amd64, armhf and arm64</strong> </td>
+  <td style="background-color: #FCED77"><p class="line862"> <strong>August 1st, 2022 to June 30th, 2024</strong> </td>
+</tr>
+<tr>  <td colspan="3" style="background-color: #98fb98"><span class="anchor" id="line-26"></span><p class="line862"> <span class="u">Future LTS Release(s)</span> </td>
+</tr>
+<tr>  <td style="background-color: #98fb98"><span class="anchor" id="line-27"></span><p class="line862"> Debian 11 “Bullseye”               </td>
+  <td style="background-color: #98fb98"><p class="line862"> i386, amd64, armhf and arm64  </td>
+  <td style="background-color: #98fb98"><p class="line862"> To be defined: roughly July 2024 to June 2026      </td>
+</tr>
+<tr>  <td style="background-color: #98fb98"><span class="anchor" id="line-28"></span><p class="line862"> Debian 12 “Bookworm”               </td>
+  <td style="background-color: #98fb98"><p class="line862"> to be defined  </td>
+  <td style="background-color: #98fb98"><p class="line862"> To be defined </td>
+</tr>
+</tbody></table>
+					</div>
+				</div>
+			</div>
+		</div>
+
 	</body>
 </html>
