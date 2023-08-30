@@ -1,0 +1,58 @@
+Work,Timesheet,http://timecollection.arinc.com/DeltekTC/TimeCollection.msv
+Work,Nagios (New),https://ngxi01slo.ims-sne.com/nagiosxi/login.php
+Work,Nagios (Old),https://mon01slo/nagiosxi/login.php,
+Work,ServiceNow,https://unitedtechnologiescorporation.service-now.com
+Work,Office online,https://www.office365.us/?auth=2&home=1
+Work,Flextra,https://services-uk.buck.com/fleet_prod/?cid=RTX
+VMWare,Slough VCA,https://vca01slo.ims-sne.com/ui
+VMWare,NYC VCA,https://vca01nyc.rcas.aero/ui
+VMWare,Lab VCA,https://vca01cly.rcas.cly/ui
+Personal,Reddit,https://reddit.com
+Personal,Github,https://github.com
+Personal,Litho Maker,https://3dp.rocks/lithophane
+Linux,Explain shell commands,https://explainshell.com
+Linux,Muffn blog (Ambilight etc.),https://blog.muffn.io
+Linux,Debug shell scripts,https://shellcheck.net
+Duo,Duo instructions,https://duo.com/docs/loginduo
+Work,ESS (X663757 login),https://ess.raytheon.com/prv8/
+Work,PWStation,https://pwstation.rockwellcollins.com/
+Work,Crawley Register (If going in to office),https://docs.google.com/spreadsheets/d/1uH7OCZPTxIDmhKDxvk8MLm68h49mzevzd8J724VKaBA/edit?usp=sharing
+3D,E-step calibration,https://teachingtechyt.github.io/calibration.html#esteps
+3D,GCODE analyzer,https://gcode.ws
+Arduino,Flickering LED,https://github.com/micromouseonline/flickering-flame
+Arduino,Pico in Arduino IDE,https://www.tomshardware.com/uk/how-to/program-raspberry-pi-pico-with-arduino-ide
+Arduino,Good tutorial site for ESP32/8266,https://lastminuteengineers.com/
+3D,Alex's firmware,https://github.com/alexqzd/Marlin/releases
+3D,FAT32 format on Mac,https://www.reddit.com/r/VoxelabAquila/comments/odxwdk/psa_before_flashing_custom_firmware_using_macos/?utm_source=share&utm_medium=ios_app&utm_name=iossmf
+3D,GD32 chip explanation,https://www.reddit.com/r/VoxelabAquila/comments/ozu8d6/g32h32n32_with_a_gd32_chip_what_to_use_for/
+3D,Cura octolapse settings,https://github.com/FormerLurker/Octolapse/wiki/V0.4---Automatic-Slicer-Configuration#if-you-are-using-cura-follow-these-steps
+Arduino,ePaper 3.7 pinout,https://www.waveshare.com/pico-epaper-3.7.htm
+Arduino,ePaper 3.7 MP library,https://github.com/phoreglad/pico-epaper
+Arduino,Font gen for SSD1306 OLED,http://oleddisplay.squix.ch/#/home
+Arduino,Great library for SSD1306 OLED,https://github.com/ThingPulse/esp8266-oled-ssd1306
+Linux,Install any binary,https://command-not-found.com
+Amazon,PS 5 charger,PlayStation 5 DualSense Charging Station https://www.amazon.co.uk/dp/B08HHFKMXB/ref=cm_sw_r_cp_api_glt_fabc_KDVBM7YMQN09VK22QY1G
+Chromebook,Activate linux,https://support.google.com/chromebook/answer/9145439?hl=en
+Chromebook,Install ChromeOS on PC,https://beebom.com/how-install-chrome-os-on-pc/
+Music,Captain Drone end track,https://www.youtube.com/watch?v=5B7r2SY5W-M
+Work,Link to tech support (US) zoom,https://collins.zoomgov.com/j/1616017322?pwd=L3crYm41cEJ4WklqdzJqQlJOSll4dz09
+Linux,ASCII boxes,https://waylonwalker.com/drawing-ascii-boxes/
+3D,Cura PPA,https://launchpad.net/~thopiekar/+archive/ubuntu/cura-master
+Work,SNE Sharepoint,https://rtxusers.sharepoint.us/sites/GS-SatcomNetworkEngineering-COL/_layouts/15/AccessDenied.aspx?Source=https%3a%2f%2frtxusers.sharepoint.us%2fsites%2fGS-SatcomNetworkEngineering-COL&correlation=0aac20a0-80e1-0000-238b-c790fdcceb9e
+Voop,Creme Kong,https://vaping101.co.uk/products/retro-joes-e-liquids-200ml-creme-kong-shortfill
+Voop,Big Fruity,https://vaping101.co.uk/products/the-big-fruity-200ml-shortfill-e-liquids
+Voop,Püd,https://vaping101.co.uk/products/pud-e-liquids-200ml-shortfill-by-joes-juice
+Voop,Black Rose,https://vaping101.co.uk/products/black-rose-elixirs-100ml-shortfill-e-liquid
+Voop,The Grind,https://vaping101.co.uk/products/the-grind-100ml-e-liquid
+Voop,Easy on the,https://vaping101.co.uk/products/easy-on-the-pocket-by-wick-liqour-100ml-shortfill-e-liquid
+Voop,Butter,https://vaping101.co.uk/products/supergood-e-liquids-butter-100ml-shortfills
+Voop,Fruito,https://vaping101.co.uk/products/fruito-e-liquids-150ml-shortfill
+Work,Rapid7,https://insight.rapid7.com
+Raspberry Pi,Ambilight by muffin,https://blog.muffn.io/building-a-custom-ambilight-system-for-any-input-with-a-raspberry-pi-and-hyperion/
+Work,Pulse SW,https://webdev.web3.technion.ac.il/docs/cis/public/ssl-vpn/v.9.1R14.0/
+Work,SSD Sharepoint,https://rtxusers.sharepoint.us/sites/GS-IMSICSCM-COL/
+Work,SNE Sharepoint,https://rtxusers.sharepoint.us/sites/GS-SatcomNetworkEngineering-COL
+Linux,Raspberry Pi mirror to SSD,https://medium.com/xster-tech/move-your-existing-raspberry-pi-4-ubuntu-install-from-sd-card-to-usb-ssd-52e99723f07b
+Fun,ASCII Emotes,https://asky.lol/
+Work,Workday,https://wd5.myworkday.com/globalhr/login-saml.htmld
+Windows,Activate Windows,https://massgrave.dev/
