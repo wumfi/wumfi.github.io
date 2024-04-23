@@ -151,7 +151,7 @@ then
 	create_bottom
 	pushd docs >/dev/null
 	cp index.html un.html
-	/usr/local/bin/staticrypt -o index.html index.html ${password}
+	/usr/local/bin/staticrypt -o index.html index.html -p ${password} --short
 	popd >/dev/null
 	dogit
 fi
