@@ -152,6 +152,7 @@ then
 	pushd docs >/dev/null
 	cp index.html un.html
 	/usr/local/bin/staticrypt -o index.html index.html -p ${password} --short
+	cp encrypted/index.html index.html
 	popd >/dev/null
 	dogit
 fi
