@@ -154,6 +154,8 @@ then
 	/usr/local/bin/staticrypt -o index.html index.html -p ${password} --short
 	cp encrypted/index.html index.html
 	popd >/dev/null
+	echo 1
 	dogit
+	echo 2
 fi
 popd >/dev/null
