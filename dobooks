@@ -10,7 +10,7 @@
 #          ____/      _|
 
 go=0
-script_home="/home/wumfi/wumfi.github.io"
+script_home="/var/www/html/wumfi.github.io"
 filename="${script_home}/docs/index.html"
 password="$(cat ${script_home}/.pwd)"
 md5="${script_home}/md5"
