@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.7",
     "staticrypt": "^3.5.0"
   },
   "devDependencies": {
