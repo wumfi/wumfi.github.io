@@ -37,10 +37,6 @@ add_line() {
 }
 
 create_sections() {
-	#for ln in $(cat books.txt | awk -F, '{print $1}' | sort | uniq)
-	#do
-	#	add_line "	<button class='w3-bar-item w3-button tablink' onclick='openSection(event, \"${ln}\")'>${ln}</button>"
-	#done
 	while read ln
 	do
 		add_line "	<button class='w3-bar-item w3-button tablink' onclick='openSection(event, \"${ln}\")'>${ln}</button>"
@@ -154,8 +150,6 @@ then
 	/usr/local/bin/staticrypt -o index.html index.html -p ${password} --short
 	cp encrypted/index.html index.html
 	popd >/dev/null
-	echo 1
 	dogit
-	echo 2
 fi
 popd >/dev/null
